@@ -11,7 +11,7 @@ def backup_directory(source_dir, dest_dir):
     except Exception as e:
         print(f"Backup failed: {e}")
 
-# Example usage
+
 source_directory = '/path/to/source'
 destination_directory = '/path/to/backup/destination'
 backup_directory(source_directory, destination_directory)
